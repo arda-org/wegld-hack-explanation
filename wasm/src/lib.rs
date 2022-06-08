@@ -1,0 +1,16 @@
+////////////////////////////////////////////////////
+////////////////// AUTO-GENERATED //////////////////
+////////////////////////////////////////////////////
+
+#![no_std]
+
+elrond_wasm_node::wasm_endpoints! {
+    hacker
+    (
+        receive_funds
+        wrapEgld
+        wrap_egld_callback
+    )
+}
+
+elrond_wasm_node::wasm_empty_callback! {}
